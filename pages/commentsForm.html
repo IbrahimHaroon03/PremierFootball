@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="commentsStyles.css">
+    <title>Comments Form</title>
+</head>
+
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav id="navBar">
+        <ul>
+            <li id="logo">
+                <img id="img" src="logo.png" alt="logo">
+            </li>
+            <li id="shop"> <!-- margin after this id -->
+                <a href ="https://w1891545.users.ecs.westminster.ac.uk/webdev/AboutPage.html">About Us</a>
+            </li>
+            <li>
+                <a href="https://w1891509.users.ecs.westminster.ac.uk/webDev/coursework/gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="https://w1891509.users.ecs.westminster.ac.uk/webDev/coursework/sitemap.html">Sitemap</a>
+            </li>
+            <li>
+                <a href="https://w1891545.users.ecs.westminster.ac.uk/webdev/Quiz.html">Quiz</a>
+            </li>
+            <li>
+                <a href="https://w1947892.users.ecs.westminster.ac.uk/webdev/commentsForm.html">Comments</a>
+            </li>
+            <li>
+                <a href ="https://w1947821.users.ecs.westminster.ac.uk/webdev/add-to-cart.html">Shop</a>
+            </li>
+            <li>
+                <a href="https://w1947892.users.ecs.westminster.ac.uk/webdev/mainPage.html">Home</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <!-- javaScript to make bar active -->
+    <script src="activePage.js" type="text/javascript"></script>
+
+    <h1>Comments Form</h1>
+    <a id="anchor" href="#bottom">Back to bottom</a>
+
+    <!-- Start of form -->
+    <form action="mailto:w1947892@westminster.ac.uk,w1891545@westminster.ac.uk,w1947821@westminster.ac.uk,w1891509@westminster.ac.uk" method="post" enctype="text/plain">
+        
+        <fieldset id="firstQuestion"> <!-- First Question. type: radio buttons -->
+            <legend id = test>How satisfied are you with our website today? Choose from 0 - 10, where 0 is extremely disatisfied and 10 is extremely satisfied.</legend>
+
+                <div class="radioButtons" id="firstButton">
+                    <label for="0">0</label>
+                    <input type="radio" name="answer1" id="0" value="0" required>
+                </div>
+
+                <div class="radioButtons">
+                    <label for="1">1</label>
+                    <input type="radio" name="answer1" id="1" value="1">
+                </div>
+
+                <div class="radioButtons">
+                    <label for="2">2</label>
+                    <input type="radio" name="answer1" id="2" value="2">
+                </div>
+
+                <div class="radioButtons">
+                    <label for="3">3</label>
+                    <input type="radio" name="answer1" id="3" value="3"> 
+                </div>
+
+                <div class="radioButtons">
+                    <label for="4">4</label>
+                    <input type="radio" name="answer1" id="4" value="4">
+                </div>
+
+                <div class="radioButtons">
+                    <label for="5">5</label>
+                    <input type="radio" name="answer1" id="5" value="5">
+                </div>
+
+                <div class="radioButtons">
+                    <label for="6">6</label>
+                    <input type="radio" name="answer1" id="6" value="6">
+                </div>
+
+                <div class="radioButtons">
+                    <label for="7">7</label>
+                    <input type="radio" name="answer1" id="7" value="7">
+                </div>
+
+                <div class="radioButtons">
+                    <label for="8">8</label>
+                    <input type="radio" name="answer1" id="8" value="8">
+                </div>
+
+                <div class="radioButtons">
+                    <label for="9">9</label>
+                    <input type="radio" name="answer1" id="9" value="9">
+                </div>
+
+                <div class="radioButtons" id="finalButton">
+                    <label for="10">10</label>
+                    <input type="radio" name="answer1" id="10" value="10">
+                </div>
+        </fieldset>
+
+        <fieldset> <!-- Second question. type: text area -->
+            <legend>Please could you tell us reasons for giving us this rating?</legend>
+            <label for="answer2"></label>
+            <textarea placeholder=" Please enter your reasons here." name="answer2" id="answer2" required></textarea>
+        </fieldset>
+
+        <fieldset> <!-- Third question. type: pop up list -->
+            <legend>How did you want to complete this task today? (optional)</legend>
+                <label for="options1"></label>
+                <select name="answer3" class="options" id="options1">
+                    <option value="pleaseSelect" selected>-- Please Select --</option>
+                    <option value="Phone">Phone</option>
+                    <option value="Website">Website</option>
+                    <option value="Webchat">Webchat</option>
+                    <option value="Social Media">Social Media</option>
+                    <option value="Email">Email</option>
+                </select>
+        </fieldset>
+
+        <fieldset> <!-- fourth question. type: pop up list -->
+            <legend>If you had to complete this task again, how would you prefer to do it? (optional)</legend>
+                <label for="options2"></label>
+                <select name="answer4" class="options" id="options2">
+                    <option value="pleaseSelect" selected>-- Please Select --</option>
+                    <option value="Phone">Phone</option>
+                    <option value="Website">Website</option>
+                    <option value="Webchat">Webchat</option>
+                    <option value="Social Media">Social Media</option>
+                    <option value="Email">Email</option>
+                </select>
+        </fieldset>
+
+        <div class="buttons">
+            <input id="reset" type="reset" name="resetButton" value="Reset">
+            <input id="submit" type="submit" name="submitButton" value="Send">
+        </div>
+
+    </form>
+
+  
+        <p id="bottom"><a href="https://w1947892.users.ecs.westminster.ac.uk/webdev/pageEditor.html">Page editor</a></p>
+
+
+      
+  
+</body>

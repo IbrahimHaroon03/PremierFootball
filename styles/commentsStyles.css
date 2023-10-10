@@ -1,0 +1,82 @@
+.radioButtons {
+    display: inline-block;
+    padding-right: 78px;
+    padding-left: 0;
+}
+
+#firstButton{
+    padding-left: 30px;
+}
+
+#finalButton {
+    padding-right: 0;
+}
+
+label {
+    display: block;
+    margin-left: 2px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+}
+
+textarea::placeholder {
+    text-align: center;
+    line-height: 200px;
+    font-size: xx-large;
+}
+
+.options {
+    width: 100%;
+}
+
+#submit, #reset {
+    width: 150px;
+    height: 40px;
+    background-color: #7fadcd;
+    border: 2px solid #0275dd;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reset {
+    margin-right: 20px;
+}
+
+legend {
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #7fadcd;
+    border-radius: 2px;
+    border: 2px solid #0275dd;
+    border-top: none;
+    border-bottom: none;
+    font-weight: 200;
+}
+
+fieldset {
+    border-radius: 3px;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: #7fadcd;
+    border: 2px solid #0275dd;
+}
+
+p {
+    text-align: center;
+}
+
+#anchor {
+    margin-left: 225px;
+}
+
+#img {
+    height: 45px;
+}
