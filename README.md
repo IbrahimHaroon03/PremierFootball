@@ -1,7 +1,7 @@
 # PremierFootball
 
 ### About
-As part of my Web Design and Development module, I created a website alongside a group on our chosen theme of football
+As part of my Web Design and Development module, I created a website alongside a group on our chosen theme of football.
 
 ### My Role
 1. Home page
@@ -14,9 +14,8 @@ As part of my Web Design and Development module, I created a website alongside a
 - How to make a horizontal nav bar
 - How to make a hover affect on the nav bar
 - Using javaScript to highlight the active page
-- Using different form elements such as pop up lists, radio buttons and more
-- 
-
+- Using different form elements such as drop down lists, radio buttons and more
+- Utilising CSS to make links look like buttons
 
 ### Clarification
-The following web pages were created by me: Home page, Comments Form, World Cup and page editor. Since the other pages are not my own a placeholder has been put in place of the original
+The following web pages were created by me: Home page, Comments Form, World Cup additional content page and page editor. Since the other pages on the navigation bar are not my own a placeholder has been put in place instead. The additional content pages represented by the images are also unaccessable apart as they were coded by other group members.
