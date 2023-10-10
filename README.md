@@ -14,6 +14,7 @@ As part of my Web Design and Development module, I created a website alongside a
 - How to make a horizontal nav bar
 - How to make a hover affect on the nav bar
 - Using javaScript to highlight the active page
+- Using different form elements such as pop up lists, radio buttons and more
 - 
 
 
